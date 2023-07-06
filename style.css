@@ -1,3 +1,14 @@
+h1{
+  color:maroon;
+  background-color: antiquewhite;
+  width: 400px;
+  text-align: center;
+  padding: 10px;
+  border: 5px solid red;
+  margin: 40px;
+}
+
+
 div{
   background-color: tomato;
   padding: 10px;
@@ -6,4 +17,65 @@ div{
   border-radius: 20px;text-align: center;
   height: 200px;
   width: 400px;
+}
+img{
+  height: 200px;
+  width: 200px;
+  position: initial;
+}
+.pic{
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 300px 0px 0px 0px  ;
+}
+#list{
+  width: 200px;
+  height: 100px;
+}
+body{
+  background-color: cadetblue;
+}
+.whatsapp,.imo{
+  background-color: #147852;
+  border-radius: 20%;
+  box-shadow: 0px 0px 40px blue;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 15px;
+  height: 150px;
+  width: 200px;
+  text-align: top;
+}
+input{
+  padding: 15ps;
+  margin: 10px;
+  display: block;
+  border-radius: 15px;
+  border-color: red;
+  box-shadow: 5px 5px 10px rebeccapurple;
+  float: none;margin: 0 auto;
+}
+
+input[type=email]
+{
+  margin-bottom: 10px;
+}
+input[type=password]
+{
+  margin-bottom: 10px;
+}
+input[type=submit]
+{
+  background: tomato;
+ color: white;
+ font-size: 20px;
+ padding: 10px;
+ border-radius: 30px 12px 30px 12px;
+}
+h3{
+  text-align: center;
+  text-transform: uppercase;
 }
